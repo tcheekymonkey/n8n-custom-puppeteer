@@ -13,4 +13,4 @@ RUN apk update && apk add --no-cache \
     libxtst
 
 # 4. Switch back to the non-root 'node' user for security.
-USER
+USER node
